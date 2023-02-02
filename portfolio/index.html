@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500;700&display=swap" rel="stylesheet">
+    <title>Everson Tibolla</title>
+</head>
+
+<body>
+    <div class="caixa-principal" id="home">
+        <nav>
+            <h2 class="portfolio">Portfo<span>lio</span></h2>
+            <ul class="menu-li">
+                <li><a class="link-menu" href="#home">Home</a></li>
+                <li><a class="link-menu" href="#sobre">Sobre</a></li>
+                <li><a class="link-menu" href="#projetos-id">projetos</a></li>
+                <li><a class="link-menu" href="#fale-comigo">fale comigo</a></li>
+            </ul>
+        </nav>
+
+        <div class="meu-nome">
+            <h1>Everson<span>Tibolla</span></h1>
+            <h3>Desenvolvedor Front-End</h3>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/everson-tibolla-benedetti-438514225/" target="_blank">
+                    <button>Linkedin</button>
+                </a>
+
+                <a href="https://github.com/everson11" target="_blank">
+                    <button>Github</button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <section id="sobre">
+
+        <img src="./img/img-everson.png" alt="foto-everson">
+
+        <div>
+            <h2>Sobre mim</h2>
+            <p>Olá! Meu nome é Everson Tibolla Benedetti, sou apaixonado pela programação.<br>Atualmente estou cursando ciência da computação e focado nas tecnologias voltada para o Front-end, e com esforço e dedicação me tornar programador full-Stack.
+            </p>
+            <a href="https://www.linkedin.com/in/everson-tibolla-benedetti-438514225/" target="_blank">
+                <button>Entre em contato</button>
+            </a>
+
+        </div>
+
+    </section>
+
+    <div class="projetos" id="projetos-id">
+        <h2>Principais Projetos</h2>
+
+        <div class="card-projetos">
+            <div class="card">
+                <img src="./img/moedalogo.png" alt="img-moeda">
+                <h5>Conversor de Moeda</h5>
+                <p>Projeto desenvolvido para aprimoramento Front-End.<br/>
+                Conversor de moeda, super intuitivo e simples de usar.
+                </p>
+                <a href="https://conversor-dinheiro.netlify.app/" target="_blank">Ver Projetos</a>
+            </div>
+
+            <div class="card">
+                <img id="calc-img" src="./img/calc-img.png" alt="img-starbuck-logo">
+                <h5>Calculadora</h5>
+                <p>Projeto desenvolvido para aprimora os conhecimento do display Grid.
+                    </p>
+                <a href="https://projeto-calculadora-web.netlify.app/" target="_blank">Ver Projetos</a>
+            </div>
+
+            <div class="card">
+                <img src="./img/crono.png" alt="img-cronometro">
+                <h5>Cronometro</h5>
+                <p>Projeto desenvolvido em live do Rodolfo Mori.<br/>
+                Cronometro simples, mas com um design bem legal.
+                </p>
+                <a href="https://web-cronometro.netlify.app/" target="_blank">Ver Projetos</a>
+            </div>
+
+        </div>
+
+
+        <div class="card-projetos-escondido" style="display: none;">
+            <div class="card-escondido">
+                <img id="img-intagram" src="./img/img-instagram.png" alt="img-instagram">
+                <h5>Clone Instagram</h5>
+                <p>Clone do instagram, projeto feito para praticar os conhecimentos de HTML e CSS.
+                </p>
+                <a href="https://clone-intagram.netlify.app/" target="_blank">Ver Projetos</a>
+            </div>
+
+            <div class="card-escondido">
+                <img id="house-img" src="./img/house.png" alt="img-house">
+                <h5>Menu-animado</h5>
+                <p>Vi o projeto no YouTube e resolvi fazer, ficou bem legal mas o menu é so pra animação.
+                </p>
+                <a href="https://projeto-menu-animado.netlify.app/" target="_blank">Ver Projetos</a>
+            </div>
+
+            <div class="card-escondido">
+                <img id="ps5-controle" src="./img/ps5.png" alt="img-cronometro">
+                <h5>Controle PS5</h5>
+                <p>Projeto desevolvido, com o intuito de deixar o projeto responsivo e para aprender mais sobre responsividade.
+                </p>
+                <a href="https://controle-ps5.netlify.app/" target="_blank">Ver Projetos</a>
+            </div>
+
+        </div>
+
+        <div class="mais-projetos">
+            <button id="toggle-button" onclick="toggleText()">Ver mais</button>
+        </div>
+
+        <div class="link-repositorios">
+            <a href="https://github.com/everson11?tab=repositories" target="_blank">
+                <p>Repositório no github</p>
+            </a>
+        </div>
+
+    </div>
+
+    <footer id="fale-comigo">
+        <h5>Everson Tibolla Benedetti</h5>
+        <p>Para mais informações</p>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/everson-tibolla-benedetti-438514225/" target="_blank"><img
+                    src="./img/linkedin.png"></a>
+            <a href="https://contate.me/eversonzapp"><img src="./img/telefone.png" alt=""></a>
+        </div>
+    </footer>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
