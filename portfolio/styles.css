@@ -15,6 +15,13 @@
     
 }
 
+.navbar{
+    background: transparent;
+    backdrop-filter: blur(7px);
+    z-index: 1;
+    
+}
+
 nav{
     display: flex;
     align-items: center;
