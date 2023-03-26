@@ -1,5 +1,5 @@
 <h1 align="center">Everson Tibolla Benedetti 👋 Portfólio  </h1>
-<h3 align="center">https://portfolio-everson.netlify.app/</h3>
+<h3 align="center">https://everson-portfolio.netlify.app/</h3>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
